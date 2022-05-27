@@ -476,7 +476,6 @@ section #dudas {
         justify-content: space-evenly;
         padding: 0;
         margin-bottom: 20px;
-        margin-top: 20px
     }
 
     #principal .container .oldDesktop {
@@ -500,6 +499,7 @@ section #dudas {
         background-position: center center;
         height: 500px;
         width: 400px;
+        box-shadow: 5px 5px 10px black;
     }
 
     #beneficios .container {
@@ -523,6 +523,7 @@ section #dudas {
         background-position: center center;
         height: 500px;
         width: 400px;
+        box-shadow: 5px 5px 10px black;
     }
 
 
