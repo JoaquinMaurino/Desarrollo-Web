@@ -181,6 +181,7 @@ footer p {
     box-shadow: 5px 5px 10px grey;
     height: 20%;
     width: 70%;
+    transform: rotate(8deg);
 }
 
 #beneficios .container {
@@ -196,6 +197,7 @@ footer p {
     box-shadow: 5px 5px 10px black;
     height: 20%;
     width: 70%;
+    transform: rotate(-5deg);
 }
 
 #iniciar,
@@ -492,6 +494,7 @@ section #dudas {
         background-position: center center;
         height: 500px;
         width: 400px;
+        box-shadow: 5px 5px 10px grey;
     }
 
     #beneficios .container {
@@ -515,6 +518,7 @@ section #dudas {
         background-position: center center;
         height: 500px;
         width: 400px;
+        box-shadow: 5px 5px 10px black;
     }
 
 
