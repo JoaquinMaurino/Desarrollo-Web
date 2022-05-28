@@ -17,32 +17,49 @@
 </head>
 
 <body>
-    <div class="gridConatinerIndex">
+    <div class="container">
         <header>
-            <div class="container">
-                <p class="logo"><a href="#">XfitTOWERS</a></p>
-                <nav>
-
-                    <input type="search" placeholder="Buscar">
-
-                    <a href="pages/iniciar-sesion.html">INICIAR SESIÓN</a>
-                    <a href="pages/registrarse.html">REGISTRARSE</a>
-                    <a href="pages/donde-encontrarnos.html">DONDE ENCONTRARNOS</a>
-                    <a href="pages/mas-sobre-crossfit.html">MAS SOBRE CROSSFIT</a>
-                    <a href="pages/dias-y-horarios.html">DÍAS Y HORARIOS</a>
-
-                </nav>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">XfitTowers</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/iniciar-sesion.html">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/registrarse.html">Registrarse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/donde-encontrarnos.html">Dónde encontrarnos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/dias-y-horarios.html">Días y horarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/mas-sobre-crossfit.html">Más sobre crossfit</a>
+                            </li>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-primary" type="submit">Search</button>
+                            </form>
+                    </div>
+                </div>
+            </nav>
         </header>
 
-        <section id="crossfit" class="crossfitImg">
-            <div class="imgCrossfit"></div>
+        <section class="container-fluid">
+            <div class="text-center"><img src="imagenes/background.jpg" alt=""></div>
         </section>
 
-        <section id="principal">
-            <div class="container">
-                <div class="imgContainer"></div>
-                <div class="textoPrincipal">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
                     <h1 class="animate__animated animate__backInRight">CrossFit Para Todos</h1>
                     <p> Este es un deporte inclusivo que puede ser practicado por personas de todas las edades, sin
                         importar su experiencia previa. Si bien es un entrenamiento de alta intensidad, los wods se
@@ -50,35 +67,34 @@
                         generar las adaptaciones fisiologicas deseadas. CrossFit utiliza movimientos seguros, efectivos
                         y eficientes similares a los que se usan en la vida cotidiana. </p>
                 </div>
-                <img class="oldDesktop" src="imagenes/old.jpg">
+                <img class="col-md-6" src="imagenes/old.jpg">
             </div>
         </section>
 
 
-        <section id="beneficios">
-            <div class="container">
-                <div class="imgContainer"></div>
-                <div class="textoSecundario">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
                     <h2 class="animate__animated animate__backInLeft">Beneficios</h2>
                     <p>Esta disciplina combina una amplia variedad de movimientos, combinando ejercicios que nos
                         permitiran
                         ganar fuerza, valocidad, coordinacion, agilidad y felxibilidad, obteniendo asi una mejor
                         calida de vida</p>
-                </div>
-                <img class="boxDesktop" src="imagenes/box.jpg">
+                    </div>
+                <img class="col-md-6" src="imagenes/box.jpg">
             </div>
         </section>
 
 
-        <footer>
-            <div class="redes">
+        <footer class="container">
+            <div class="text-center">
                 <nav>
-                    <a href="https://www.instagram.com/xfittowerss">IG</a>
-                    <a href="https://www.facebook.com/xfitowersmoron">FB</a>
-                    <a href="https://api.whatsapp.com/send?phone=54115702362">WP</a>
+                    <a class="btn btn-outline-secondary" href="https://www.instagram.com/xfittowerss">IG</a>
+                    <a class="btn btn-outline-secondary" href="https://www.facebook.com/xfitowersmoron">FB</a>
+                    <a class="btn btn-outline-secondary" href="https://api.whatsapp.com/send?phone=54115702362">WP</a>
                 </nav>
-            </div>
             <p>&copy; XfitTOWERS 2022</p>
+        </div>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
