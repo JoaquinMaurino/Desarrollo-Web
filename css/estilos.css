@@ -2,12 +2,12 @@ body {
     background-color: rgb(190, 189, 189);
 }
 
-header{
+header {
     position: fixed;
     width: 100%
 }
 
-#encabezado{
+#encabezado {
     padding: 0%;
 }
 
@@ -21,8 +21,9 @@ header{
     background-size: cover;
 }
 
-#logo .crossfit {
-    width: 60%
+#logo{
+    height: 400px;
+    background-image: url(../imagenes/pano.jpg);
 }
 
 #principal {
@@ -33,25 +34,43 @@ header{
     padding: 0%;
 }
 
-#beneficios{
+#beneficios {
     margin-bottom: 40px;
     margin-top: 20px;
 }
 
-
-#iniciar, #registrarse{
+#iniciar,
+#registrarse {
     height: 500px;
     margin-bottom: 200px;
+    background-image: url(../imagenes/pano.jpg);
 }
 
-.formIni, .formReg{
+.formIni,
+.formReg {
     margin-top: 200px;
 }
 
-@media (min-width:576px){
-    #beneficios{
-        display: flex;
+.formIni{
+    width: 30%;
+}
 
-    }
+#dondeEncontrarnos{
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
 
+#video{
+    padding-top: 50px;
+    background-color: rgb(124, 124, 124);
+    margin: 0%;
+    background-image: url(../imagenes/pano.jpg);
+}
+
+#dudas{
+    margin-bottom: 100px;
+}
+
+#horarios{
+    padding-top: 200px;
 }
