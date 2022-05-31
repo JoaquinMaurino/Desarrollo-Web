@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(190, 189, 189);
+}
+
+header{
+    position: fixed;
+    width: 100%
+}
+
+#encabezado{
+    padding: 0%;
+}
+
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagenes/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo .crossfit {
+    width: 60%
+}
+
+#principal {
+    padding-top: 20px;
+}
+
+#principal img {
+    padding: 0%;
+}
+
+#beneficios{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+#iniciar, #registrarse{
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+.formIni, .formReg{
+    margin-top: 200px;
+}
+
+@media (min-width:576px){
+    #beneficios{
+        display: flex;
+
+    }
+
+}
