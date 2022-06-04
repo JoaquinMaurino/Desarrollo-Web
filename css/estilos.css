@@ -51,6 +51,14 @@ header {
     background-image: url(../imagenes/pano.jpg);
 }
 
+#registrarse .container {
+    height: 60vh;
+}
+
+#registrarse .form{
+    width: 80%;
+}
+
 .formIni,
 .formReg {
     margin-top: 200px;

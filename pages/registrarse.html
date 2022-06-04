@@ -50,9 +50,43 @@
     </div>
 
 
-        <section id="registrarse" class="container">
-                <div class="row text-center align-items-center justify-content-center">
-                    <form class="formReg">
+    <section id="registrarse">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 text-white bg-dark rounded">
+                <h2 class="text-center">Registrarse</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xfittowers@mail.com">                
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                    </div>
+                    <div class="input-group mt-3 mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Seleccion su género</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Masculino</option>
+                          <option value="1">Femenino</option>
+                          <option value="2">Otro</option>
+                        </select>
+                      </div>
+                      <div class="input-group mt-3 mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Seleccion nivel de experiencia</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                          <option selected>Alto</option>
+                          <option value="1">Bajo</option>
+                          <option value="2">Nulo</option>
+                        </select>
+                      </div>
+                    <div class="text-center mt-4 mb-2"><button type="submit" class="btn btn-primary text-center">Listo!</button></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!--                     <form class="formReg">
                         <h2 class="mb-4 text-white bg-dark titulo">Registrarse</h2>
                         <input type="text" placeholder="Nombre">
                         <input type="text" placeholder="Apellido">
@@ -80,20 +114,19 @@
                         <input type="password" placeholder="Insertar Contraseña">
                         <input type="password" placeholder="Repetir Contraseña">
                         <input class="button" type="submit" value="Listo"><br>
-                    </form>
-                </div>
-        </section>
+                    </form> -->
 
-        <footer class="container">
-            <div class="text-center">
-                <nav>
-                    <a class="btn btn-outline-secondary" href="https://www.instagram.com/xfittowerss">IG</a>
-                    <a class="btn btn-outline-secondary" href="https://www.facebook.com/xfitowersmoron">FB</a>
-                    <a class="btn btn-outline-secondary" href="https://api.whatsapp.com/send?phone=54115702362">WP</a>
-                </nav>
-                <p>&copy; XfitTOWERS 2022</p>
-            </div>
-        </footer>
+
+    <footer class="container">
+        <div class="text-center">
+            <nav>
+                <a class="btn btn-outline-secondary" href="https://www.instagram.com/xfittowerss">IG</a>
+                <a class="btn btn-outline-secondary" href="https://www.facebook.com/xfitowersmoron">FB</a>
+                <a class="btn btn-outline-secondary" href="https://api.whatsapp.com/send?phone=54115702362">WP</a>
+            </nav>
+            <p>&copy; XfitTOWERS 2022</p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
