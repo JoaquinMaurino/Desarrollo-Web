@@ -57,6 +57,9 @@ header {
   margin: 0%;
   background-image: url(../imagenes/pano.jpg); }
 
+#vocabulario {
+  margin-top: 100px; }
+
 #dudas {
   margin-bottom: 100px; }
 
