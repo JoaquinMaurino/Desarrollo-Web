@@ -1,90 +1,66 @@
 body {
-    background-color: rgb(209, 209, 209);
-    font-size: larger;
-}
+  background-color: #d1d1d1;
+  font-size: larger; }
 
 header {
-    position: fixed;
-    width: 100%
-}
+  position: fixed;
+  width: 100%; }
 
 #encabezado {
-    padding: 0%;
-}
-
+  padding: 0%; }
 
 #logo {
-    display: flex;
-    justify-content: center;
-    background-image: url(../imagenes/bg4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#logo{
-    height: 400px;
-    background-image: url(../imagenes/pano.jpg);
-}
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-image: url(../imagenes/pano.jpg); }
 
 #principal {
-    padding-top: 20px;
-}
-
-#principal img {
-    padding: 0%;
-}
+  padding-top: 20px; }
+  #principal img {
+    padding: 0%; }
 
 #beneficios {
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
+  margin-bottom: 40px;
+  margin-top: 20px; }
 
-#iniciar{
-    height: 500px;
-    margin-bottom: 200px;
-    background-image: url(../imagenes/pano.jpg);
-}
+#iniciar {
+  height: 500px;
+  margin-bottom: 200px;
+  background-image: url(../imagenes/pano.jpg); }
 
 #registrarse {
-    height: 500px;
-    margin-bottom: 200px;
-    background-image: url(../imagenes/pano.jpg);
-}
-
-#registrarse .container {
-    height: 60vh;
-}
-
-#registrarse .form{
-    width: 80%;
-}
+  height: 500px;
+  margin-bottom: 200px;
+  background-image: url(../imagenes/pano.jpg); }
+  #registrarse .form {
+    position: relative;
+    top: 80px; }
 
 .formIni,
 .formReg {
-    margin-top: 200px;
-}
+  margin-top: 200px; }
 
-.formIni{
-    width: 30%;
-}
+.formIni {
+  width: 30%; }
 
-#dondeEncontrarnos{
-    padding-top: 100px;
-    margin-bottom: 200px;
-    background-image: url(../imagenes/pano.jpg);
-}
+#dondeEncontrarnos {
+  padding-top: 100px;
+  margin-bottom: 200px;
+  background-image: url(../imagenes/pano.jpg); }
 
-#video{
-    padding-top: 50px;
-    background-color: rgb(124, 124, 124);
-    margin: 0%;
-    background-image: url(../imagenes/pano.jpg);
-}
+#video {
+  padding-top: 65px;
+  background-color: #7c7c7c;
+  margin: 0%;
+  background-image: url(../imagenes/pano.jpg); }
 
-#dudas{
-    margin-bottom: 100px;
-}
+#dudas {
+  margin-bottom: 100px; }
 
-#horarios{
-    padding-top: 200px;
-}
+#horarios {
+  padding-top: 80px;
+  background-image: url(../imagenes/pano.jpg);
+  margin-bottom: 200px; }
