@@ -36,60 +36,60 @@ header {
 }
 
 #beneficios {
-    margin-bottom: 40px;
     margin-top: 20px;
+    @include pt-mb(30px,40px);
+    padding-bottom: 30px;
 }
 
 #iniciar {
     height: 500px;
     margin-bottom: 200px;
     background-image: $background;
+
+}
+
+.formIni {
+    position: relative;
+    top: 150px;
+    width: 30%;
 }
 
 #registrarse {
-    height: 500px;
-    margin-bottom: 200px;
-    background-image: $background;
+    @extend #iniciar;
 
     .form {
         position: relative;
         top: 80px;
+
+        div {
+            width: 90%;
+            position: relative;
+            left: 5%;
+        }
     }
 
 }
 
 
-.formIni,
-.formReg {
-    margin-top: 200px;
-}
-
-.formIni {
-    width: 30%;
-}
-
 #dondeEncontrarnos {
-    padding-top: 100px;
-    margin-bottom: 200px;
+    @include pt-mb(100px,200px);
     background-image: $background;
 }
 
 #video {
     padding-top: 65px;
-
     background-image: $background;
 }
 
-#vocabulario{
+#vocabulario {
     margin-top: 100px;
 }
-#dudas {
 
-    margin-bottom: 100px;
+#dudas {
+ @extend #vocabulario;
 }
 
 #horarios {
-    padding-top: 80px;
+    @include pt-mb(80px,200px);
     background-image: $background;
-    margin-bottom: 200px;
 }

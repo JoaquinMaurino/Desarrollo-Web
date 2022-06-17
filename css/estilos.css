@@ -24,28 +24,28 @@ header {
     padding: 0%; }
 
 #beneficios {
+  margin-top: 20px;
+  padding-top: 30px;
   margin-bottom: 40px;
-  margin-top: 20px; }
+  padding-bottom: 30px; }
 
-#iniciar {
+#iniciar, #registrarse {
   height: 500px;
   margin-bottom: 200px;
   background-image: url(../imagenes/pano.jpg); }
-
-#registrarse {
-  height: 500px;
-  margin-bottom: 200px;
-  background-image: url(../imagenes/pano.jpg); }
-  #registrarse .form {
-    position: relative;
-    top: 80px; }
-
-.formIni,
-.formReg {
-  margin-top: 200px; }
 
 .formIni {
+  position: relative;
+  top: 150px;
   width: 30%; }
+
+#registrarse .form {
+  position: relative;
+  top: 80px; }
+  #registrarse .form div {
+    width: 90%;
+    position: relative;
+    left: 5%; }
 
 #dondeEncontrarnos {
   padding-top: 100px;
@@ -56,13 +56,10 @@ header {
   padding-top: 65px;
   background-image: url(../imagenes/pano.jpg); }
 
-#vocabulario {
+#vocabulario, #dudas {
   margin-top: 100px; }
-
-#dudas {
-  margin-bottom: 100px; }
 
 #horarios {
   padding-top: 80px;
-  background-image: url(../imagenes/pano.jpg);
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  background-image: url(../imagenes/pano.jpg); }

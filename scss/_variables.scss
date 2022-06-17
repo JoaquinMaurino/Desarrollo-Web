@@ -1,1 +1,6 @@
 $background: url(../imagenes/pano.jpg);
+
+@mixin pt-mb($paddingtop,$marginbottom) {
+    padding-top: $paddingtop;
+    margin-bottom: $marginbottom;
+}
