@@ -7,7 +7,10 @@ tituloPrincipal.addEventListener("click", () => {
     tituloPrincipal.innerText = "Crossfit Para Todos"
 })
 
-let boton = document.querySelector("#btnDudas");
-boton.addEventListener("click", () => {
-    alert("Su consulta ha sido enviada, recibirá una respuesta pronto!")
+
+let formDudas = document.getElementById("formDudas");
+formDudas.addEventListener("submit", function(event){
+    event.preventDefault();
+    alert("Su consulta ha sido enviada, recibirá una respuesta a la brevedad!");
 });
+
