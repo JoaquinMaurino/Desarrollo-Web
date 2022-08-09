@@ -150,23 +150,40 @@
             <ul class="palabras">
                 <li>BOX: Lugar de entrenamiento en donde se practica CrossFit.</li>
                 <li>RX: Quiere decir que el deportista ha hecho el WOD según el peso y modalidad indicada.</li>
-                <li>PR: Es la mayor cantidad de peso que el deportista puede levantar en un ejercicio específico.
+                <li>RM: Es la mayor cantidad de peso que el deportista puede levantar en un ejercicio específico.
                 </li>
             </ul>
         </div>
     </section>
 
-    <section id="dudas">
-        <div class="container text-center">
+    <section id="calcularRM">
+        <div class="container-fluid text-center row col-8 col-md-12 pb-3">
+            <h2>Para qué nos sirve el RM</h2>
+            <p>Trabajamos de manera periódica, realizando una planificación de fuerza. Para empezar vamos a utilizar el RM, en base a el se calcula la/s carga/s con la/s que vamos a trabajar en cada sesión de entrenamiento. Si querés saber el resultado completa los siguientes campos y clickeá Calcular!</p>
+        <form id="RM" class="pt-3">
+            <input id="ingresarRM" type="textarea" class="rounded" placeholder="Ingresar RM">
+            <input id="porcentaje" type="textarea" class="rounded" placeholder="Ingresar Porcentaje">
+            <div class="text-center mt-4 mb-2"><button type="submit" class="btn btn-primary text-center">Calcular!</button>
+            </div>
+        </form>
+    </div>
+        <div id="resultado">
+
+        </div>
+    </section>
+
+    <section id="dudas" class="bg-dark text-white">
+        <div class="container text-center pb-3 pt-3">
+            <h2>Si querés consultarnos algo, te dejamos este espacio a continuación:</h2>
             <form id="formDudas" class="dudas">
-                <input type="textarea" class="rounded" placeholder="¿Tienes alguna duda?">
+                <input type="textarea" class="rounded" placeholder="¿Tenés alguna duda?">
                 <div class="text-center mt-4 mb-2"><button type="submit"
-                        class="btn btn-primary text-center">Listo!</button></div>
+                        class="btn btn-primary text-center">Enviar!</button></div>
             </form>
         </div>
     </section>
 
-    <footer class="container">
+    <footer class="container mt-5">
         <div class="text-center">
             <nav>
                 <a class="btn btn-outline-primary" href="https://www.instagram.com/xfittowerss">IG</a>
@@ -179,7 +196,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <script src="../js/scripts.js"></script>
+    <script src="../js/mas-sobre-cf.js"></script>
 </body>
 
 </html>

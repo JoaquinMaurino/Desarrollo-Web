@@ -56,10 +56,15 @@ header {
   padding-top: 65px;
   background-image: url(../imagenes/pano.jpg); }
 
-#vocabulario, #dudas {
+#vocabulario {
   margin-top: 100px; }
 
 #horarios {
   padding-top: 80px;
   margin-bottom: 200px;
   background-image: url(../imagenes/pano.jpg); }
+
+#calcularRM {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px; }

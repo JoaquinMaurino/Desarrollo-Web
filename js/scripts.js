@@ -8,9 +8,4 @@ tituloPrincipal.addEventListener("click", () => {
 })
 
 
-let formDudas = document.getElementById("formDudas");
-formDudas.addEventListener("submit", function(event){
-    event.preventDefault();
-    alert("Su consulta ha sido enviada, recibirá una respuesta a la brevedad!");
-});
 

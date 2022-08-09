@@ -85,11 +85,14 @@ header {
     margin-top: 100px;
 }
 
-#dudas {
- @extend #vocabulario;
-}
-
 #horarios {
     @include pt-mb(80px,200px);
     background-image: $background;
+}
+
+#calcularRM {
+display: flex;
+justify-content: center;
+padding-top: 40px;
+
 }
