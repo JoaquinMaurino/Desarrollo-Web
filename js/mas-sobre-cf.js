@@ -1,3 +1,4 @@
+//Seccion Dudas
 let formDudas = document.getElementById("formDudas");
 formDudas.addEventListener("submit", function(event){
     event.preventDefault();
@@ -5,6 +6,8 @@ formDudas.addEventListener("submit", function(event){
 });
 
 
+
+//Seccion calcular RM
 let ingresarRM = document.getElementById("ingresarRM");
 let ingresarPorcenaje = document.getElementById("porcentaje");
 
