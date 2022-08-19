@@ -1,10 +1,14 @@
 //Seccion Dudas
 let formDudas = document.getElementById("formDudas");
-formDudas.addEventListener("submit", function(event){
+formDudas.addEventListener("submit", function (event) {
     event.preventDefault();
-    alert("Su consulta ha sido enviada, recibirá una respuesta a la brevedad!");
-});
 
+    Swal.fire({
+        title: "Consulta enviada",
+        text: "Recibirá una respuesta a la brevedad",
+        icon: "success"
+    });
+});
 
 
 //Seccion calcular RM
@@ -13,13 +17,24 @@ let ingresarPorcenaje = document.getElementById("porcentaje");
 
 
 let formRM = document.getElementById("RM");
-formRM.addEventListener("submit", function(event){
-    event.preventDefault();
+formRM.addEventListener("submit", function (e) {
 
-    function calcularRM (rm, porcentaje){
-        return rm * (porcentaje / 100)
-    }
-    let resultado = calcularRM(ingresarRM.value, ingresarPorcenaje.value);
-    alert("El resultado es: "+ resultado+" kilos.");
-});
+        e.preventDefault();
 
+        function calcularRM(rm, porcentaje) {
+            return rm * (porcentaje / 100)
+        }
+        let resultado = calcularRM(ingresarRM.value, ingresarPorcenaje.value);
+        Swal.fire({
+        title: "Calculo realizado",
+        text: "El resultado es : " + resultado + " kilos.",
+        icon: "success"
+    });
+})
+
+
+/* Swal.fire({
+    title: "Error",
+    text: "Debes ingresar un número mayor a '0' (cero)",
+    icon: "error"
+}); */
